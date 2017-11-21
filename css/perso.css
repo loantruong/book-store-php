@@ -1,0 +1,23 @@
+#liste_bibliotheque{
+    width: 100%;
+    background-color: #fff6;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+#liste_bibliotheque th{
+    background-color: white;
+    height: 60px;
+    width: 20%;
+    border: solid 1px #989898;
+}
+#liste_bibliotheque td{
+    padding: 20px;
+    border: solid 1px #989898;
+}
+.space_tbl{
+    padding: 0 20px;
+}
+.min_width_quantite{
+    min-width: 140px;
+    text-align: center;
+}

@@ -6,13 +6,13 @@
 
 <!-- Afficher les msg de succès et d'erreur -->
 <?php
-    messageErreur("erreurLogin", "Oups, le login existe déjà, veuillez en choisir un autre");
-    messageErreur("erreurMdp", "Oups, les mots de passe sont différents");
-    messageErreur("erreurRequete", "Oups, problème de requête/contactez-nous");
-    messageErreur("erreurType", "Oups, problème de fichier (fichier accepté JPEG ou PNG)");
-    messageErreur("erreurTaille", "Oups, votre fichier est trop grand. (Il doit faire max 500x500px)");
-    messageErreur("erreurDeplacer", "Oups, Impossible de récupérer votre image ....snif");
-    messageErreur("erreurLourd", "Oups, image trop lourde ....snif");
+    errorMsg("erreurLogin", "Oups, le login existe déjà, veuillez en choisir un autre");
+    errorMsg("erreurMdp", "Oups, les mots de passe sont différents");
+    errorMsg("erreurRequete", "Oups, problème de requête/contactez-nous");
+    errorMsg("erreurType", "Oups, problème de fichier (fichier accepté JPEG ou PNG)");
+    errorMsg("erreurTaille", "Oups, votre fichier est trop grand. (Il doit faire max 500x500px)");
+    errorMsg("erreurDeplacer", "Oups, Impossible de récupérer votre image ....snif");
+    errorMsg("erreurLourd", "Oups, image trop lourde ....snif");
 ?>
 
 <!-- Boutons supprimer des livres -->
@@ -24,19 +24,19 @@
 <form method="post" action="" enctype="multipart/form-data">
     <div>
         <label for="prenom">Prénom* : </label>
-        <input type="text" name="prenom" id="prenom" value="<?php ecrireGet("prenom")?>">
+        <input type="text" name="prenom" id="prenom" value="<?php getWrite("prenom")?>">
     </div>
     <div>
         <label for="nom">Nom* : </label>
-        <input type="text" name="nom" id="nom" value="<?php ecrireGet("nom")?>">
+        <input type="text" name="nom" id="nom" value="<?php getWrite("nom")?>">
     </div>
     <div>
         <label for="mail">Mail* : </label>
-        <input type="text" name="mail" id="mail" value="<?php ecrireGet("mail")?>">
+        <input type="text" name="mail" id="mail" value="<?php getWrite("mail")?>">
     </div>
     <div>
         <label for="login">Login : </label>
-        <input type="date" name="login" id="login" value="<?php ecrireGet("login")?>">
+        <input type="date" name="login" id="login" value="<?php getWrite("login")?>">
     </div>
     <div>
         <label for="mdp1">Mot de passe : </label>

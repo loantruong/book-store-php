@@ -5,9 +5,9 @@
 
 <!-- Message d'erreur -->
 <?php
-    messageErreur("erreur", "ATTENTION le titre est obligatoire !");
-    messageErreur("erreurSQL", "Problème SQL");
-    messageErreur("erreurDate", "Le format de date incorrect : ");
+    errorMsg("erreur", "ATTENTION le titre est obligatoire !");
+    errorMsg("erreurSQL", "Problème SQL");
+    errorMsg("erreurDate", "Le format de date incorrect : ");
 
 ?>
 
@@ -15,7 +15,7 @@
 <form method="post" action="">
     <div>
         <label for="titre">Titre* : </label>
-        <input type="text" name="titre" id="titre" value="<?php ecrireGet("titre") ?>">
+        <input type="text" name="titre" id="titre" value="<?php getWrite("titre") ?>">
     </div>
     <div>
         <label for="auteur">Auteur : </label>
@@ -86,7 +86,7 @@
                 //si ok, transforme la date d'édition tel que le veut SQL
                 $date = "$annee-$mois-$jour";
             }else{
-                header("location:ajouter_livre.php?erreurDate&titre=$titre");
+                header("location:add_book.php?erreurDate&titre=$titre");
                 exit();
             }
         }else{

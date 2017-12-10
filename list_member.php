@@ -5,8 +5,8 @@
 ?>
 
 <?php
-    messageSucces ("modifierMembreAdmin", "rôle modifé");
-    messageSucces ("suppressionMembre", "membre supprimé");
+    sucessMsg ("modifierMembreAdmin", "rôle modifé");
+    sucessMsg ("suppressionMembre", "membre supprimé");
 ?>
 
 <table id="liste_bibliotheque">

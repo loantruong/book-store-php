@@ -6,7 +6,7 @@
 
 <!-- Afficher les msg de succès et d'erreur -->
 <?php
-   messageErreur("update_member_admin", "problème avec le changement de rôle");
+   errorMsg("update_member_admin", "problème avec le changement de rôle");
     
 ?>
 

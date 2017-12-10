@@ -6,10 +6,10 @@
 <!-- Afficher message d'erreur -->
 <?php
     //login ou mdp incorrect
-    messageErreur("erreur", "OUPS, votre identifiant ou votre mot de passe n'est pas valide.");
+    errorMsg("erreur", "OUPS, votre identifiant ou votre mot de passe n'est pas valide.");
     
     //login ou mdp incorrect // identifiant GET 'interdit'
-    messageErreur("interdit", "Vous devez être connecté pour accéder à cette page");
+    errorMsg("interdit", "Vous devez être connecté pour accéder à cette page");
 ?>
 
 
@@ -21,7 +21,7 @@
 <form method="post" action="">
     <div>
         <label for="login">Login : </label>
-        <input type="text" name="login" id="login" value="<?php ecrireGET("login") ?>" required>
+        <input type="text" name="login" id="login" value="<?php getWrite("login") ?>" required>
     </div>
     <div>
         <label for="mdp">Mot de passe : </label>

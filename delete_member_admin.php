@@ -6,7 +6,7 @@
 
 <!-- Afficher les msg de succès et d'erreur -->
 <?php
-    messageErreur("erreurSupMembre", "petit problème avec la suppression du membre");
+    errorMsg("erreurSupMembre", "petit problème avec la suppression du membre");
 ?>
 
 <!-- Boutons supprimer des livres -->

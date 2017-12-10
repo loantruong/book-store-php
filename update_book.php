@@ -6,9 +6,9 @@
 
 <!-- Afficher les msg de succès et d'erreur -->
 <?php
-    messageErreur("erreur", "petit problème avec la suppression");
-    messageErreur("erreurModification", "petit problème avec la modification");
-    messageErreur("erreurDate", "problème avec le format de la date");
+    errorMsg("erreur", "petit problème avec la suppression");
+    errorMsg("erreurModification", "petit problème avec la modification");
+    errorMsg("erreurDate", "problème avec le format de la date");
 ?>
 
 <!-- Boutons supprimer des livres -->

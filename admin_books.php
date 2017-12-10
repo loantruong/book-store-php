@@ -14,17 +14,17 @@
 <!-- Afficher les msg de succès et d'erreur -->
 <?php
         //message de connexion réussi
-        messageSucces("connexion", "vous voilà connecté !");
+        sucessMsg("connexion", "vous voilà connecté !");
         //ajout livre ok
-        messageSucces("ajout", "votre livre a bien été ajouté !");
+        sucessMsg("ajout", "votre livre a bien été ajouté !");
         //livre supprimé ok 
-        messageSucces("suppression", "votre livre a bien été supprimé !");
+        sucessMsg("suppression", "votre livre a bien été supprimé !");
         //livre modification ok 
-        messageSucces("modification", "votre livre a bien été modifié !");
+        sucessMsg("modification", "votre livre a bien été modifié !");
         //nouveau membre
-        messageSucces("nouveauMembre", "Bienvenue ! ");
+        sucessMsg("nouveauMembre", "Bienvenue ! ");
         //modifcation membre ok
-        messageSucces("modifierMembre", "Modification ok");
+        sucessMsg("modifierMembre", "Modification ok");
 ?>
 
 

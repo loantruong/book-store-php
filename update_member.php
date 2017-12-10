@@ -6,13 +6,13 @@
 
 <!-- Afficher les msg de succès et d'erreur -->
 <?php
-    messageErreur("erreurRequete", "Oups, problème de requête/contactez-nous");
-    messageErreur("erreurType", "Oups, problème de fichier (fichier accepté JPEG ou PNG)");
-    messageErreur("erreurTaille", "Oups, votre fichier est trop grand. (Il doit faire max 500x500px)");
-    messageErreur("erreurDeplacer", "Oups, Impossible de récupérer votre image ....snif");
-    messageErreur("erreurLourd", "Oups, image trop lourde ....snif");
-    messageErreur("erreurSupAvatar", "OUps, problème avec la suppression de l'avatar");
-    messageSucces("SupAvatar", "votre avatar a bien été supprimé");
+    errorMsg("erreurRequete", "Oups, problème de requête/contactez-nous");
+    errorMsg("erreurType", "Oups, problème de fichier (fichier accepté JPEG ou PNG)");
+    errorMsg("erreurTaille", "Oups, votre fichier est trop grand. (Il doit faire max 500x500px)");
+    errorMsg("erreurDeplacer", "Oups, Impossible de récupérer votre image ....snif");
+    errorMsg("erreurLourd", "Oups, image trop lourde ....snif");
+    errorMsg("erreurSupAvatar", "OUps, problème avec la suppression de l'avatar");
+    errorMsg("SupAvatar", "votre avatar a bien été supprimé");
 ?>
 
 <!-- Boutons supprimer des livres -->

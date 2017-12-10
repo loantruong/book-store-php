@@ -19,7 +19,7 @@
 
 <!-- Afficher un message de succès ou erreur -->
 <?php 
-    messageSucces("deconnexion", "vous êtes maintenant déconnecté !");
+    sucessMsg("deconnexion", "vous êtes maintenant déconnecté !");
 ?>
 
 <table id="liste_bibliotheque">

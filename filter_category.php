@@ -10,9 +10,9 @@
 <!-- Afficher les msg de succès et d'erreur -->
 <?php
         //livre supprimé ok 
-        messageSucces("suppression", "votre livre a bien été supprimé !");
+        sucessMsg("suppression", "votre livre a bien été supprimé !");
         //livre modification ok 
-        messageSucces("modification", "votre livre a bien été modifié !");
+        sucessMsg("modification", "votre livre a bien été modifié !");
 ?>
 
 

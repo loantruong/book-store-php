@@ -6,7 +6,7 @@
 
 <!-- Afficher les msg de succès et d'erreur -->
 <?php
-    messageErreur("erreur", "petit problème avec la suppression");
+    errorMsg("erreur", "petit problème avec la suppression");
 ?>
 
 <!-- Boutons supprimer des livres -->

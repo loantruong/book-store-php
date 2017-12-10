@@ -7,5 +7,5 @@
     date_default_timezone_set("Europe/Paris");
     
     require_once "connexion.php";
-    require_once "fonctions.php";
+    require_once "functions.php";
 ?>

@@ -13,8 +13,8 @@
 <?php
     //ajouts de livres
     echo "<h2>Ajout de livre</h2>";
-    $log = fopen("logs/ajout_livre.txt", "r");
-    $lecture = fread($log, filesize("logs/ajout_livre.txt"));
+    $log = fopen("logs/add_book.txt", "r");
+    $lecture = fread($log, filesize("logs/add_book.txt"));
     
     //pour faire des sauts à la ligne
     $lecture = str_replace("\r\n", "<br>", $lecture);

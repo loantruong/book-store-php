@@ -15,7 +15,7 @@
 <?php
     //on check si l'utilisateur à le bon rôle
     if($_SESSION["role"] == "Membre"){
-        header("location:role_insufisant.php");
+        header("location:insufficient_role.php");
         exit();
     }
 ?>

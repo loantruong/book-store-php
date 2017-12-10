@@ -14,7 +14,7 @@
 
 
 <p>
-    <a href="ajouter_membre.php">Créer un compte</a>
+    <a href="add_member.php">Créer un compte</a>
 </p>
 
 <!-- Forumlaire de connexion - Affichage -->
@@ -73,7 +73,7 @@
                 fclose();
                 
                 //redirirger vers la page d'admin des livres + ajout du GET pour afficher un msg sur la page (?connexion)
-                header("location:admin_livres.php?connexion");
+                header("location:admin_books.php?connexion");
                 exit();
             }else{
                 //rediriger vers la page de login avec le login et l'erreur en GET

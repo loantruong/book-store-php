@@ -23,7 +23,7 @@
             <nav>
                 <div>
                     <a href="index.php">Accueil</a>
-                    <a href="admin_livres.php">Administration livres</a>
+                    <a href="admin_books.php">Administration livres</a>
                 </div>
                 <div>
                     <?php
@@ -62,11 +62,11 @@
                                 Bonjour $sessionLogin
                                 $avatarMembre
                                 |
-                                <a href='modifier_membre.php'>Mon compte</a>
+                                <a href='update_member.php'>Mon compte</a>
                                 |
                                 $liensAdmin
                                 
-                                <a href='includes/deconnexion.php'>Me deconnecter</a>
+                                <a href='includes/logout.php'>Me deconnecter</a>
                                 
                             </p>";
                             }

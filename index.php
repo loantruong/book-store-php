@@ -14,7 +14,7 @@
 
 <!-- Bouton d'achat -->
 <p>
-    <a href="acheter_livre.php">acheter des livres</a>
+    <a href="buy_book.php">acheter des livres</a>
 </p>
 
 <!-- Afficher un message de succès ou erreur -->
